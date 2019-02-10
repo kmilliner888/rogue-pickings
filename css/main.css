@@ -1,0 +1,147 @@
+/***** BASE SETUP *****/
+body  {
+  font-family: 'Montserrat', sans-serif, 'Pacifico';
+}
+
+
+/***** GRID SETUP *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+
+
+/***** HEADER SECTION *****/
+
+h1  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 23px;
+  color: black;
+  padding: 10px 0px 10px 0px;
+}
+
+h1 span   {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul li a  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  color: #77a466;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+
+/***** TOP SECTION *****/
+.full-width img {
+  border: 3px solid #77a466;
+}
+
+#top-section h2  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #77a466;
+}
+
+#top-section p  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: black;
+}
+
+/***** BOTTOM SECTION *****/
+
+h3  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+  color: black;
+}
+
+#section-1 ul li a   {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #77a466;
+  text-decoration: none;
+}
+
+#section-1 ul   {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#section-1 li  {
+  padding-bottom: 15px;
+}
+
+#section-2 p  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: black;
+  text-align: left;
+}
+
+#section-3 p  {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+/***** FOOTER SECTION *****/
+
+footer h2 {
+  clear: both;
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: black;
+}
+
+footer h2 span {
+  font-family: 'Cookie', cursive;
+  font-size: 16px;
+  color: #77a466;
+}
